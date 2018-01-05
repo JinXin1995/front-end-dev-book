@@ -9,3 +9,7 @@
 .flavor-mocha {
     color: cyan;
 }
+
+form :focus:required:invalid {
+    border-color: #a94442;
+}
