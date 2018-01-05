@@ -6,6 +6,7 @@
     <title>Coffee Run</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/style.css">
 </head>
 <body class="container">
     <header>
@@ -59,8 +60,18 @@
                 </form>
             </div>
         </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>Pending Orders</h4>
+                <div data-coffee-order="checklist">
+
+                </div>
+            </div>
+        </div>
     </section>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./scripts/checklist.js"></script>
     <script src="./scripts/formhandler.js"></script>
     <script src="./scripts/datastore.js"></script>
     <script src="./scripts/truck.js"></script>
