@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var extract = require('./extract');
+var wss = require('./websockets-server')
 
 var server = http.createServer(function (req, res) {
     console.log("Responding to a request.");
